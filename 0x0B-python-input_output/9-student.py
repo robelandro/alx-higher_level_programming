@@ -11,9 +11,9 @@ class Student:
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
-    
+
     def to_json(self):
-        """ A function that returns the dictionary description with simple data structure
+        """ A function that returns the dictionary description with simple
 
         Returns:
             [dict]: [attributes of the given instance]

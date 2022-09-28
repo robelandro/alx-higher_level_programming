@@ -13,6 +13,6 @@ def write_file(filename="", text=""):
     """
     written = 0
     with open(filename, mode="w", encoding="utf-8") as my_file:
-         written = my_file.write(text)
-    
+        written = my_file.write(text)
+
     return written
